@@ -145,4 +145,13 @@
     </insert>
 </changeSet>
 
+<!-- 14. Insertar nuevo producto HU-01 -->
+<changeSet id="14" author="camilo">
+    <insert tableName="productos">
+        <column name="nombre" value="Monitor"/>
+        <column name="precio" valueNumeric="350.00"/>
+        <column name="usuario_id" valueNumeric="2"/>
+    </insert>
+</changeSet>
+
 </databaseChangeLog>
